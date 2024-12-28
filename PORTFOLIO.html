@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <header>
@@ -15,49 +17,45 @@
 
             <ul>
 
-                <div class="nav-bar">
-
-                <a href="#intro">HOME</a>
-                <a href="#about">ABOUT ME</a>
-                <a href="#formulaire">CONTACT</a>
-                <a href="#work">WORK</a>
-
-                </div>
+                <li><a href="#intro">HOME</a></li>
+                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="#work">WORK</a></li>
+                <li><a href="#formulaire">CONTACT</a></li>
 
             </ul>
+            
+        </nav>
 
-            <br>
-
-            <br>
+    </header>
 
             <hr>
-
-
-        <h1><i>BIENVENUE SUR MA PAGE !</i></h1>
+    <div class="mesh2">
+        <h2><i>BIENVENUE SUR MA PAGE !</i></h2>
 
             <p>DÉVELOPPEUR WEB DÉBUTANT - IMAGINATIF ET PASSIONNÉ</p>
 
         <br>
 
+        <section²>
+
         <h2><i>HOME</i></h2>
 
-        <section id="HOME">
+        </section>
 
-            <form action="">
+        <section id="intro">
 
-            <label for="champNOM">NOM:</label>
-            <input type="champNOM">
+             <ul>
 
-            <label for="champPRÉNOMS">PRÉNOMS:</label>
-            <input type="champPRÉNOMS">
+                <li>NOM: SANOGO</li>
+                <li>PRÉNOMS: YACOUBA</li>
 
-            </form>
+             </ul>
 
         </section>
 
         <h2><i>ABOUT ME</i></h2>
 
-        <section id="ABOUT ME">
+        <section id="about">
 
             <P>
                 JEUNE, IMAGINATIF ET CRÉATIF, JE SUIS PASSIONNÉ DU WEB DÉVELOPPEMENT. AIMANT LA PROGRAMMATION, JE VOUDRAIS FAIRE DE CELA UN MÉTIER.
@@ -73,7 +71,7 @@
 
         <h2><i>WORK</i></h2>
 
-        <section id="WORK">
+        <section id="work">
 
             <P>
                 J'AI TRAVAILLÉ SUR DES PROJETS TELS QUE PETROCI HOLDING CÔTE D'IVOIRE, GESTOCI.
@@ -93,53 +91,40 @@
 
 
         </video>
-    
+
+    </div>
+
     </section>
 
     <h2><i>CONTACT</i></h2>
 
-    <section id="CONTACT">
+    <section id="formulaire">
 
-        <form action="">
+        <form>
 
         <label for="champNOM">NOM:</label>
-        <input type="champNOM">
+        <input type="champNOM" id="nom" name="nom">
 
         <label for="champEMAIL">EMAIL:</label>
-        <input type="champEMAIL">
+        <input type="champEMAIL" id="email" name="nom">
 
         <label for="champNUMÉRODETÉLÉPHONE">NUMÉRO DE TÉLÉPHONE:</label>
-        <input type="champNUMÉRODETÉLÉPHONE">
+        <input type="champNUMÉRODETÉLÉPHONE" id="numéro de téléphone" name="numéro de téléphone">
 
-        <br>
-
-        
-        <input type="submit" value="ENVOYER UN COMMENTAIRE">
-
-        <br>
-        <label for="champgrostexte"></label>
-        <textarea name="" id="champgrostexte"></textarea>
+        <label for="champgrostexte">MESSAGE:</label>
+        <textarea id="message" name="champgrostexte" rows="s" placeholder="Votre message ici..." required></textarea>
+        <button type="submit">ENVOYER</button>
 
         </form>
 
     </section>
 
+    <hr>
+
     <footer>
-
-        <hr>
-
+        
         <a href="@">sanogofernand8@gmail.com</a>
 
     </footer>
-
-
-       
-
-        
-
-        </nav>
-
-    </header>
-
 </body>
 </html>

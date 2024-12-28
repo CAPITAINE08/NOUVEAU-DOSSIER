@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto";
+}
+
+h1{
+    text-align: center;
+    background-color: #15f5ba;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    right: 20px;
+    padding-right: 10px;
+
+}
+
+header li{
+    display: inline-block;
+    margin: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover{
+    color: springgreen;
+    transition: 0.5s;
+}
+
+.nav-bar{
+    background-color: darkviolet;
+}
+
+
+h2{
+    text-align: center;
+    margin: 10px;
+}
+
+div{
+    background-image: url(Arrière\ plan\ 1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.mesh2 h2{
+    color: yellow;
+}
+
+.mesh2 p{
+    font-weight: bold;
+}
+
+#intro li{
+    color: #15f5ba;
+    font-weight: bold;
+}
+
+#formulaire{
+    background-image: url(Arrière\ plan\ 4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form{
+    border: solid black 1px;
+    padding: 10px;
+    margin: 20px auto;
+    width: 800px;
+    border-radius: 8px;
+}
+
+footer a{
+    padding: 10px;
+    width: fit-content;
+}
+
+#work a:hover{
+    background-color: white;
+}
+
+body p{
+    color: white;
+}
+
+form label{
+    color: white;
+}
+
+input, label{
+    display: inline-block;
+    padding-block: 5px;
+}
